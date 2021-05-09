@@ -1,5 +1,5 @@
 exports.wait = () => {
-	return`Tunggu Sebentar, Sedang di Prosses`
+	return`Mohon Tunggu Sebentar, Sedang di Proses`
 }
 
 exports.succes = () => {
@@ -27,7 +27,7 @@ exports.lvlnoon = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*daftar duluya caranya ketik : ${prefix}daftar nama|umur*\n*contoh = ${prefix}daftar Vinzz|18*`
+	return`*「 BELUM DAFTAR 」*\n\n*daftar duluya caranya ketik : ${prefix}daftar nama|umur*\n*contoh = ${prefix}daftar ahmad|12*`
 }
 
 exports.rediregis = () => {
@@ -83,7 +83,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ *「 PENDAFTARAN USER 」*\n│\n│ *Terima kasih Telah Mendaftarkan*\n│ *Diri Anda Ke Dalam*\n│ *Database VINZZ BOT*\n│\n│ *Nama : ${namaUser}*\n│ *APi : wa.me/${sender.split("@")[0]}*\n│ *Umur : ${umurUser}*\n│ *Waktu Registrasi : ${time}*\n│ *SN : ${serialUser}*\n│ *Status : Terverifikasi*\n│\n│\n│ *Jangan Sampai Lupa Nomer Ini*\n│ *Suatu Saat Bakalan Berguna*\n│ *Tunggu Update BOT Versi Terbaru.*\n│\n│ *☑ Silahkan Ketik ${prefix}rules*\n│ *Untuk Melanjutkan Pengguna*\n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n\n *「 VINZZ BOT 」*`
+	return`╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ *「 PENDAFTARAN USER 」*\n│\n│ *Terima kasih Telah Mendaftarkan*\n│ *Diri Anda Ke Dalam*\n│ *Database GUSTIAN BOT*\n│\n│ *Nama : ${namaUser}*\n│ *APi : wa.me/${sender.split("@")[0]}*\n│ *Umur : ${umurUser}*\n│ *Waktu Registrasi : ${time}*\n│ *SN : ${serialUser}*\n│ *Status : Terverifikasi*\n│\n│\n│ *Jangan Sampai Lupa Nomer Ini*\n│ *Suatu Saat Bakalan Berguna*\n│ *Tunggu Update BOT Versi Terbaru.*\n│\n│ *☑ Silahkan Ketik ${prefix}rules*\n│ *Untuk Melanjutkan Pengguna*\n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n\n *「 GUSTIAN BOT 」*`
 }
 
 exports.owneresce = (pushname) => {
