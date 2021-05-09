@@ -91,18 +91,18 @@ const getRandom = (ext) => {
 const spinner = { 
   "interval": 120,
   "frames": [
-    "❤️",
-    "❤️",
-    "💖",
-    "💖",
-    "💚",
-    "💚",
-    "💙",
-    "💙",
-    "💜",
-    "💜",
-    "💟",
-    "💟"
+    "🕐",
+    "🕑",
+    "🕒",
+    "🕓",
+    "🕔",
+    "🕕",
+    "🕖",
+    "🕗",
+    "🕘",
+    "🕙",
+    "🕚",
+    "🕛"
   ]}
 
 let globalSpinner;
@@ -132,17 +132,14 @@ const success = (id, text) => {
 const close = (id, text) => {
 	spins.fail(id, {text: text})
 }
-const banner = cfonts.render((`SUBSCRIBE CHANNEL|MR KING`), {
+
+const banner = cfonts.render(('[WAIT] LOADING...'), {
     font: 'chrome',
     color: 'candy',
     align: 'center',
-    gradient: ["red","magenta"],
+    gradient: ["red","yellow"],
     lineHeight: 3
   });
-const CFonts  = require('cfonts')
-CFonts.say(`SUBSCRIBE CHANNEL|MR KING`, {
-  font: 'block',
-  align: 'center',
-  gradient: ['red', 'blue']
-})
+
+
 module.exports = { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRandom, start, info, success, banner, close }
