@@ -10,7 +10,7 @@ apt-get install wget -y
 apt-get install tesseract -y
 npm i imgbb-uploader
 npm i 
-wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
+wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/BYBOT12/MEGABOT12.git
 npm install
-
-echo "[*] Sukses Install Semuanya Bro, Next Ketik "node mrking" 👍"
+"
+echo "[*] Sukses Install Semuanya Bro, Next Ketik "node index.js mrking" 👍"
